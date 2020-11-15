@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PublisherView",
+        "repositoryURL": "https://github.com/danielctull/PublisherView",
+        "state": {
+          "branch": "swiftui-2020",
+          "revision": "d0f3594ad1e9f2e0769e916230caa97884b500e2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
