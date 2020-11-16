@@ -19,6 +19,10 @@
 		243ED59A25619BBA009578E0 /* PublisherView in Frameworks */ = {isa = PBXBuildFile; productRef = 243ED59925619BBA009578E0 /* PublisherView */; };
 		243ED5A12561A15C009578E0 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5A02561A15C009578E0 /* AuthorizationView.swift */; };
 		243ED5A22561A15C009578E0 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5A02561A15C009578E0 /* AuthorizationView.swift */; };
+		243ED5A62561A342009578E0 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5A52561A342009578E0 /* LocationView.swift */; };
+		243ED5A72561A342009578E0 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5A52561A342009578E0 /* LocationView.swift */; };
+		243ED5AD2561A433009578E0 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5AC2561A433009578E0 /* FailureView.swift */; };
+		243ED5AE2561A433009578E0 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243ED5AC2561A433009578E0 /* FailureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,8 @@
 		24314EA124D7568600B06F9C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		24314EB024D7590600B06F9C /* CoreLocationCombine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CoreLocationCombine; path = ../..; sourceTree = "<group>"; };
 		243ED5A02561A15C009578E0 /* AuthorizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		243ED5A52561A342009578E0 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		243ED5AC2561A433009578E0 /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				243ED5A02561A15C009578E0 /* AuthorizationView.swift */,
+				243ED5A52561A342009578E0 /* LocationView.swift */,
+				243ED5AC2561A433009578E0 /* FailureView.swift */,
 				24314E8F24D7568400B06F9C /* ExampleApp.swift */,
 				24314E9024D7568400B06F9C /* ContentView.swift */,
 				24314E9124D7568600B06F9C /* Assets.xcassets */,
@@ -221,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24314EA424D7568600B06F9C /* ContentView.swift in Sources */,
+				243ED5AD2561A433009578E0 /* FailureView.swift in Sources */,
+				243ED5A62561A342009578E0 /* LocationView.swift in Sources */,
 				24314EA224D7568600B06F9C /* ExampleApp.swift in Sources */,
 				243ED5A12561A15C009578E0 /* AuthorizationView.swift in Sources */,
 			);
@@ -231,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24314EA524D7568600B06F9C /* ContentView.swift in Sources */,
+				243ED5AE2561A433009578E0 /* FailureView.swift in Sources */,
+				243ED5A72561A342009578E0 /* LocationView.swift in Sources */,
 				24314EA324D7568600B06F9C /* ExampleApp.swift in Sources */,
 				243ED5A22561A15C009578E0 /* AuthorizationView.swift in Sources */,
 			);
